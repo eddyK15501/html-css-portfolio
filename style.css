@@ -69,7 +69,7 @@ nav a:hover {
 /* ABOUT */
 
 #about {
-    height: 80vh;
+    height: 95vh;
     background-color: #fff;
     padding: 12.5% 10% 10%;
     display: flex;
@@ -251,10 +251,6 @@ footer {
 /* MEDIA QUERY */
 
 @media screen and (max-width: 970px) {
-    #about {
-        height: 95vh;
-    }
-
     .about-main-container {
         flex-wrap: wrap;
         justify-content: center;
