@@ -77,17 +77,30 @@ nav a:hover {
     align-items: center;
 }
 
+#about p {
+    margin-bottom: 1rem;
+}
+
 .about-main-container {
     display: flex;
+    align-items: center;
     gap: 6rem;
 }
 
-.about-img-container img {
-    width: 250px;
-    height: 250px;
-    object-fit: cover;
+.about-img-container {
+    min-width: 300px;
+    height: 300px;
+    background-image: url('./img/20230604_134725.jpg');
+    background-position: center;
+    background-size: 110%;
+    background-repeat: no-repeat;
     border-radius: 50%;
-    border: 1px solid black;
+    cursor: pointer;
+    transition: 0.2s ease-out;
+}
+
+.about-img-container:hover {
+    transform: scale(1.05);
 }
 
 .about-bio-container {
@@ -103,7 +116,7 @@ nav a:hover {
 
 .about-bio-container h1 {
     font-size: 3rem;
-    margin-bottom: 3rem;
+    margin-bottom: 2rem;
 }
 
 .about-bio-container h1:nth-child(1) {
@@ -231,12 +244,17 @@ nav a:hover {
 
 footer {
     background-color: #000;
+    color: #fff;
     height: 18vh;
 }
 
 /* MEDIA QUERY */
 
 @media screen and (max-width: 970px) {
+    #about {
+        height: 95vh;
+    }
+
     .about-main-container {
         flex-wrap: wrap;
         justify-content: center;
@@ -266,5 +284,21 @@ footer {
 
     .about-bio-container h1 {
         margin-bottom: 1.5rem;
+    }
+}
+
+@media screen and (max-width: 400px) {
+    .about-img-container img {
+        width: 200px;
+        height: 200px;
+    }
+
+    .description {
+        width: 50px;
+        height: 50px;
+    }
+
+    .description h3 {
+        font-size: 0.7rem;
     }
 }
