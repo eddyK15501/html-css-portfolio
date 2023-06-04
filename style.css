@@ -218,11 +218,11 @@ footer {
 
 
 
-/* @media screen and (max-width: 970px) {
+@media screen and (max-width: 970px) {
     .about-main-container {
         flex-wrap: wrap;
         justify-content: center;
         text-align: center;
         gap: 3rem;
     }
-} */
+}
