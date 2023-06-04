@@ -362,7 +362,7 @@ footer .icons {
 }
 
 @media screen and (max-width: 400px) {
-    .about-img-container img {
+    .about-img-container {
         width: 200px;
         height: 200px;
     }
