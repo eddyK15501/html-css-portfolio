@@ -1,5 +1,8 @@
+/* GOOGLE FONTS */
+
 @import url('https://fonts.googleapis.com/css2?family=Cedarville+Cursive&family=Righteous&family=Roboto&display=swap');
 
+/* UNIVERSAL */
 
 * {
     box-sizing: border-box;
@@ -7,9 +10,13 @@
     margin: 0;
 }
 
+/* BODY */
+
 body {
     font-family: 'Roboto', sans-serif;
 }
+
+/* NAVIGATION BAR */
 
 nav {
     width: 100%;
@@ -47,8 +54,7 @@ nav a {
     justify-content: space-between;
 }
 
-
-
+/* ABOUT */
 
 #about {
     height: 80vh;
@@ -95,8 +101,7 @@ nav a {
     font-size: 0.8rem;
 }
 
-
-
+/* PROJECTS */
 
 #projects {
     background-color: dodgerblue;
@@ -112,6 +117,10 @@ nav a {
 
 #projects a:hover {
     opacity: 0.7;
+}
+
+#projects .border {
+    border: 2px solid black;
 }
 
 .projects-header-container{
@@ -204,19 +213,14 @@ nav a {
     border-right: 2px solid black;
 }
 
-#projects .border {
-    border: 2px solid black;
-}
-
+/* FOOTER */
 
 footer {
     background-color: #000;
     height: 18vh;
 }
 
-
-
-
+/* MEDIA QUERY */
 
 @media screen and (max-width: 970px) {
     .about-main-container {
