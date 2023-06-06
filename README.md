@@ -4,10 +4,14 @@
 This is a portfolio project that I have created using only HTML and CSS. Written from scratch. The webpage is fully responsive.
 
 ## Installation
-N/A
+Download the Live Server extension on Visual Studio Code if necessary.
 
 ## Usage
-Right click on the index.html file, copy path, and paste in the URL. Or start up the webpage by opening with Live Server. Download the Live Server extension on Visual Studio Code if necessary.
+Right click on the index.html file, copy path, and paste in the URL. Or start up the webpage by opening with Live Server. 
+
+### Links to the deployed Github Page:
+
+[HTML-Portfolio](https://eddyk15501.github.io/html-portfolio/)
 
 ### Screenshot of the webpage:
 
