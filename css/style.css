@@ -321,6 +321,10 @@ footer .icons {
 /* MEDIA QUERY */
 
 @media screen and (max-width: 970px) {
+    #about {
+        height: 105vh;
+    }
+
     .about-main-container {
         flex-wrap: wrap;
         justify-content: center;
