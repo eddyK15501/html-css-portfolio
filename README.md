@@ -1,4 +1,4 @@
-# My HTML-Portfolio
+# My HTML-Portfolio • [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
 ## Description
 This is a portfolio project that I have created using only HTML and CSS. Written from scratch. The webpage is fully responsive.
