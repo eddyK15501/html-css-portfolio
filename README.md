@@ -2,7 +2,7 @@
 [![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](https://opensource.org/licenses/MIT)
 
 ## Description
-This is my static portfolio web page, using only HTML and CSS. Written from scratch. Responsive layouts added for different screen sizes.
+Static portfolio web page, using only HTML and CSS. Written from scratch. Responsive layouts added for different screen sizes.
 
 ## Installation
 * Optional: Live Server extension on Visual Studio Code
